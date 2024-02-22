@@ -14,6 +14,7 @@
     <RepositoryUrl>https://github.com/D3W10/FlashScreen</RepositoryUrl>
     <NeutralLanguage>en-US</NeutralLanguage>
     <Description>Flash your Screen!</Description>
+    <Authors>Daniel Nunes</Authors>
   </PropertyGroup>
   <ItemGroup>
     <Content Include="app.ico" />

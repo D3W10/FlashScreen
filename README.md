@@ -23,17 +23,20 @@
 1. [About](#about)
     - [Built With](#built-with)
 2. [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
+    - [System Requirements](#system-requirements)
     - [Installation](#installation)
-3. [License](#license)
-4. [Credits](#credits)
+3. [Development](#development)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation-1)
+4. [License](#license)
+5. [Credits](#credits)
 
 <br />
 <br />
 
 ## About
 
-FlashScreen is a desktop application that let's you flash your screen between two colors just by pressing any button.
+FlashScreen is a desktop application that allows you to flash your screen between two selected colors just by pressing any button.
 
 > **⚠️ Warning:** May induce seizures if you have epilepsy!
 
@@ -43,20 +46,43 @@ FlashScreen is a desktop application that let's you flash your screen between tw
 
 - [C#](https://learn.microsoft.com/dotnet/csharp/)
 - [.NET Core](https://dotnet.microsoft.com/)
-- [Windows Forms (.NET Core)](https://learn.microsoft.com/dotnet/desktop/winforms/overview/)
 
 <br />
 <br />
 
 ## Getting Started
 
-In case you wanna deploy a copy of FlashScreen on your device, follow the steps below to get started.
+In order to use the app go to the [releases page](https://github.com/D3W10/FlashScreen/releases) and download the latest version.
+
+<br />
+
+### System Requirements
+
+To run the app you need:
+
+- A computer running Windows:
+    - Windows 10 or superior;
+- Have .NET 7 installed.
+
+<br />
+
+### Installation
+
+After downloading the app from the [releases page](https://github.com/D3W10/FlashScreen/releases), run it and you can start using. FlashScreen is a portable application, so it can be saved in a portable drive (like a pen USB) and be used in any windows machine.
+
+<br />
+<br />
+
+## Development
+
+If you want to deploy a copy of FlashScreen on your device to develop a feature or fix a bug, follow the steps below to get started.
 
 <br />
 
 ### Prerequisites
 
 In order to run the application, you will need the following tools:
+- Visual Studio 2022
 - C# 11.0
 - .NET Core 7
 - git (*optional*)
@@ -69,8 +95,8 @@ In order to run the application, you will need the following tools:
     ```sh
     git clone https://github.com/D3W10/FlashScreen.git
     ```
-2. Open the solution on Visual Studio using the `.sln` file
-3. Compile and execute pressing `F5`
+2. Open the project solution (`.sln` file) using Visual Studio
+3. Compile and run by pressing `F5`
 
 <br />
 <br />
@@ -84,4 +110,4 @@ Distributed under the Mozilla Public License 2.0. See `LICENSE` for more details
 
 ## Credits
 
-- Made by [D3W10](https://d3w10.netlify.app/)
+- Made by [Daniel Nunes](https://d3w10.netlify.app/)
